@@ -13,7 +13,6 @@ import testex.Joke;
  * @author Ben
  */
 public class Moma implements IJokeFetcher {
-
     @Override
     public Joke getJoke() {
         try {
@@ -22,6 +21,5 @@ public class Moma implements IJokeFetcher {
         } catch (Exception e) {
             return null;
         }
-
     }
 }

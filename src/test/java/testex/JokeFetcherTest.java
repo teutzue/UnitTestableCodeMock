@@ -26,10 +26,6 @@ import testex.jokefetching.IJokeFetcher;
 import testex.jokefetching.Moma;
 import testex.jokefetching.Tambal;
 
-/**
- *
- * @author Ben
- */
 @RunWith(MockitoJUnitRunner.class)
 public class JokeFetcherTest {
     Joke testEdu = new Joke("This is an educational joke", "EducationalJokes.org");
@@ -131,6 +127,6 @@ public class JokeFetcherTest {
         assertThat(jokes.getJokes().get(3).getJoke(), is(expectedJoke));
         assertThat(jokes.getJokes().get(3).getReference(), is(expectedReference));
     }
-   
+    
     
 }

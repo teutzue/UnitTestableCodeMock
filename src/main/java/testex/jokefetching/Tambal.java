@@ -13,7 +13,6 @@ import testex.Joke;
  * @author Ben
  */
 public class Tambal implements IJokeFetcher {
-
     @Override
     public Joke getJoke() {
         try {
@@ -22,6 +21,5 @@ public class Tambal implements IJokeFetcher {
         } catch (Exception e) {
             return null;
         }
-
     }
 }

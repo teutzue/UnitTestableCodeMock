@@ -7,10 +7,6 @@ package testex;
 
 import java.util.Date;
 
-/**
- *
- * @author Ben
- */
 public interface IDateFormatter {
     
     String getFormattedDate(String timeZone, Date timeNow ) throws Exception;

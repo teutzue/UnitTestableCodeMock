@@ -28,9 +28,6 @@ public class DateFormatterTest {
         dFormatter = new DateFormatter();
     }
     
-    
-
-    
     @Test
     public void testTimeZoneCPH() throws Exception {
         String expDate = "17 Feb 2017 10:56 AM";
@@ -38,7 +35,4 @@ public class DateFormatterTest {
         Date date = new Date(2017 - 1900, 1, 17, 10, 56);
         assertThat(dFormatter.getFormattedDate(tZone, date), is(expDate) );
     }
-
-    
-    
 }

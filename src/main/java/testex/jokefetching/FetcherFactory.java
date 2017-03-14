@@ -32,8 +32,6 @@ public class FetcherFactory implements IFetcherFactory {
         this.momaJoke = momaJoke;
         this.tambalJoke = tambalJoke;
     }
-    
-    
 
     @Override
     public List<String> getAvailableTypes() {
